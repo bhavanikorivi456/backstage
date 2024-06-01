@@ -1,20 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Bhavani Infosys
-  description: An example Backstage component with additional metadata.
-  annotations:
-    github.com/project-slug: https://github.com/bhavanikorivi456/backstage
-    backstage.io/techdocs-ref: dir:./docs
+  name: Bhavani-Infosys
+  description: Artist Lookup
 spec:
   type: service
-  owner: bhavani@infosys.com
   lifecycle: experimental
-  system: demo-system
-  tags: typescript
-  links:
-    - url: https://your-service.example.com
-      title: Production
-    - url: https://your-service-staging.example.com
-      title: Staging
+  owner: bhavani@infosys.com
 

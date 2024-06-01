@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Bhavani Infosys
-  description: Backstage is an open platform for building developer portals
-    annotations:
+  description: An example Backstage component with additional metadata.
+  annotations:
     github.com/project-slug: https://github.com/bhavanikorivi456/backstage
     backstage.io/techdocs-ref: dir:./docs
 spec:

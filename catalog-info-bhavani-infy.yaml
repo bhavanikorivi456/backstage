@@ -1,19 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bhavani-demo
-  description: An example Backstage component with additional metadata.
-  annotations:
+  name: Bhavani Infosys
+  description: Backstage is an open platform for building developer portals
+    annotations:
     github.com/project-slug: https://github.com/bhavanikorivi456/backstage
     backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
-  owner: bhavani@example.com
+  owner: bhavani@infosys.com
   lifecycle: experimental
   system: demo-system
-  tags:
-    - demo
-    - example
+  tags: typescript
   links:
     - url: https://your-service.example.com
       title: Production

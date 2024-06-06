@@ -2357,7 +2357,7 @@
     semver "^7.5.3"
     zod "^3.22.4"
 
-"@backstage/cli@^0.26.5":
+"@backstage/cli@^0.26.6":
   version "0.26.6"
   resolved "https://registry.npmjs.org/@backstage/cli/-/cli-0.26.6.tgz#7da045d08dad2c797904b00402b76355e420f24f"
   integrity sha512-g9/0smHu6ltcWuDVJBRbAzEDzj0ijb1jbfk7qqyWqIkWLnK0VqbTzgLPPEvIgOMG4VSCqDop46DCVPcOi3qeUQ==
@@ -2694,7 +2694,7 @@
     isomorphic-form-data "^2.0.0"
     swagger-ui-react "^5.0.0"
 
-"@backstage/plugin-app-backend@^0.3.66":
+"@backstage/plugin-app-backend@^0.3.67":
   version "0.3.67"
   resolved "https://registry.npmjs.org/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.67.tgz#e33bbe4d44827db1508e6c3af8fa1b128bd700c9"
   integrity sha512-eRlxlv21hn7TAGC2J083tw0wgnmCn4ZAc95acfVY4XEYCMB4Ysivt/DHNs6FiKt1zOuIoR0BvtQtYhm1iWIafQ==
@@ -3427,7 +3427,7 @@
     yaml "^2.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-backend@^1.22.6":
+"@backstage/plugin-scaffolder-backend@^1.22.7":
   version "1.22.7"
   resolved "https://registry.npmjs.org/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.22.7.tgz#9429cd6d7c9d708ed24cd155f7fdc51b6b0f1712"
   integrity sha512-cHTc1Bfe2clvftbbWvy78Lgvx4cTqCRTuopipxpMlVyplEu+vGprZBgS72NHakApkdgnsMLwhg6jCn1Leo8yYA==
@@ -3551,7 +3551,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder@^1.20.0":
+"@backstage/plugin-scaffolder@^1.20.1":
   version "1.20.1"
   resolved "https://registry.npmjs.org/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.20.1.tgz#76510e3bec376e4689caba2042443d0bb1523596"
   integrity sha512-ThoHhMqJkB6PuUCid1fi2LOaFPLagFZQ4DC8zNElAtujLB/xyPiCo9ZzN4USRkS39aiav3RvihbmeZMOg/joKg==
@@ -3657,7 +3657,7 @@
     ndjson "^2.0.0"
     uuid "^9.0.0"
 
-"@backstage/plugin-search-backend@^1.5.8":
+"@backstage/plugin-search-backend@^1.5.9":
   version "1.5.9"
   resolved "https://registry.npmjs.org/@backstage/plugin-search-backend/-/plugin-search-backend-1.5.9.tgz#c215d2216f8f0b70d7933257e0afdc5730bfe416"
   integrity sha512-3dMGHPcUwYJdYCB+jGoCDFNjtroMSkH3vwOgVnkFogmAzV84fbN4sU8krl9tfDhrnke+FMBsMif2+siAP4s7ag==
@@ -5388,39 +5388,39 @@
     react-is "^16.8.0 || ^17.0.0"
 
 "@microsoft/api-documenter@^7.22.33":
-  version "7.25.1"
-  resolved "https://registry.npmjs.org/@microsoft/api-documenter/-/api-documenter-7.25.1.tgz#32e7f0da9de021971a7593f2ce3f077091ec7e03"
-  integrity sha512-UHYGq9TFqJnzU3vx/P72ljJUAiilAVHu1oYfjc3gh0xgVVXYl/N+zC6tcfqf3oG/eBVDiGI7BCCg5tKYXl8IHw==
+  version "7.25.3"
+  resolved "https://registry.npmjs.org/@microsoft/api-documenter/-/api-documenter-7.25.3.tgz#1d5f5ebff047b71eb0f2cf920621ce04860beaad"
+  integrity sha512-xigAN2KPukckFhXMp+Zv8UhIh8lRpu5RXoM+Pl1HRHAVtIWN0oWMIeGU1bU79W+bCRTuo5zsQ98NvN6DHFMXaQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.29.1"
+    "@microsoft/api-extractor-model" "7.29.2"
     "@microsoft/tsdoc" "~0.15.0"
-    "@rushstack/node-core-library" "5.4.0"
-    "@rushstack/terminal" "0.12.3"
-    "@rushstack/ts-command-line" "4.21.5"
+    "@rushstack/node-core-library" "5.4.1"
+    "@rushstack/terminal" "0.13.0"
+    "@rushstack/ts-command-line" "4.22.0"
     js-yaml "~3.13.1"
     resolve "~1.22.1"
 
-"@microsoft/api-extractor-model@7.29.1":
-  version "7.29.1"
-  resolved "https://registry.npmjs.org/@microsoft/api-extractor-model/-/api-extractor-model-7.29.1.tgz#e27fb3f10b61083bdea625db8903664de3b2d1fe"
-  integrity sha512-nPiAbD1lBx4imlIwpHxEnQbMPVOvZ7RmopC5WeTUQ4oA9KBeRe6fq0gI+FCzSPBhMeQhDzC40XpkfaNEAhR1Aw==
+"@microsoft/api-extractor-model@7.29.2":
+  version "7.29.2"
+  resolved "https://registry.npmjs.org/@microsoft/api-extractor-model/-/api-extractor-model-7.29.2.tgz#5354aa3afd3091adef57620909807d2d949405df"
+  integrity sha512-hAYajOjQan3uslhKJRwvvHIdLJ+ZByKqdSsJ/dgHFxPtEbdKpzMDO8zuW4K5gkSMYl5D0LbNwxkhxr51P2zsmw==
   dependencies:
     "@microsoft/tsdoc" "~0.15.0"
     "@microsoft/tsdoc-config" "~0.17.0"
-    "@rushstack/node-core-library" "5.4.0"
+    "@rushstack/node-core-library" "5.4.1"
 
 "@microsoft/api-extractor@^7.36.4":
-  version "7.46.1"
-  resolved "https://registry.npmjs.org/@microsoft/api-extractor/-/api-extractor-7.46.1.tgz#7a70049b85c55256ca2d66ab9ec5b8f99289c852"
-  integrity sha512-rp/fGAWszN+Mlyt7QAtD4qoAj7Tu19fmkyFVl3oUNCPAfpMzfttS84QKBqAkwODkfn8MmOrSOjY6zBtJ626c1Q==
+  version "7.47.0"
+  resolved "https://registry.npmjs.org/@microsoft/api-extractor/-/api-extractor-7.47.0.tgz#056db0ef3bb1b916e60f276eaefb2eb338df3c53"
+  integrity sha512-LT8yvcWNf76EpDC+8/ArTVSYePvuDQ+YbAUrsTcpg3ptiZ93HIcMCozP/JOxDt+rrsFfFHcpfoselKfPyRI0GQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.29.1"
+    "@microsoft/api-extractor-model" "7.29.2"
     "@microsoft/tsdoc" "~0.15.0"
     "@microsoft/tsdoc-config" "~0.17.0"
-    "@rushstack/node-core-library" "5.4.0"
+    "@rushstack/node-core-library" "5.4.1"
     "@rushstack/rig-package" "0.5.2"
-    "@rushstack/terminal" "0.12.3"
-    "@rushstack/ts-command-line" "4.21.5"
+    "@rushstack/terminal" "0.13.0"
+    "@rushstack/ts-command-line" "4.22.0"
     lodash "~4.17.15"
     minimatch "~3.0.3"
     resolve "~1.22.1"
@@ -6926,10 +6926,10 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.18.0.tgz#5d694d345ce36b6ecf657349e03eb87297e68da4"
   integrity sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==
 
-"@rushstack/node-core-library@5.4.0":
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/@rushstack/node-core-library/-/node-core-library-5.4.0.tgz#3e97d6eab843b54869c0583b5b465ca8f1384d72"
-  integrity sha512-AORYbEZUgEj8w4vGGWMkrdMkWPE9+wMor5Z0H6vyVBQn4Y+iNuV2OA7ozKF7f4KqHrh6ZmmKnSxLzYp/kcF0Gg==
+"@rushstack/node-core-library@5.4.1":
+  version "5.4.1"
+  resolved "https://registry.npmjs.org/@rushstack/node-core-library/-/node-core-library-5.4.1.tgz#3d7fe919a2ca0e84fd1410a3700f6a2e49950d20"
+  integrity sha512-WNnwdS8r9NZ/2K3u29tNoSRldscFa7SxU0RT+82B6Dy2I4Hl2MeCSKm4EXLXPKeNzLGvJ1cqbUhTLviSF8E6iA==
   dependencies:
     ajv "~8.13.0"
     ajv-draft-04 "~1.0.0"
@@ -6948,20 +6948,20 @@
     resolve "~1.22.1"
     strip-json-comments "~3.1.1"
 
-"@rushstack/terminal@0.12.3":
-  version "0.12.3"
-  resolved "https://registry.npmjs.org/@rushstack/terminal/-/terminal-0.12.3.tgz#474579066f213b3524336e7ee8e0e3c5ff18b7a1"
-  integrity sha512-J8sDqJiRpXM8QyfYP7ywlueFNzuxVG9P2rZiy5vvgqCtp/6ds7mhjK8mMP6qplTjqn9Dft9bRij2SDPwIAx5NA==
+"@rushstack/terminal@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.npmjs.org/@rushstack/terminal/-/terminal-0.13.0.tgz#623c454e77e2f1ad530b680e25627d8902dcd1be"
+  integrity sha512-Ou44Q2s81BqJu3dpYedAX54am9vn245F0HzqVrfJCMQk5pGgoKKOBOjkbfZC9QKcGNaECh6pwH2s5noJt7X6ew==
   dependencies:
-    "@rushstack/node-core-library" "5.4.0"
+    "@rushstack/node-core-library" "5.4.1"
     supports-color "~8.1.1"
 
-"@rushstack/ts-command-line@4.21.5":
-  version "4.21.5"
-  resolved "https://registry.npmjs.org/@rushstack/ts-command-line/-/ts-command-line-4.21.5.tgz#191872a610225895450ebfbae0e1dcf6e38cea82"
-  integrity sha512-5+pltcINLviII2Fdy/EuJxkq+B0XdqWBswI8lUVlKiUlf7YnfpeSqTK9aLETF6ykjqpmTrHDQjRDENulmGiMzg==
+"@rushstack/ts-command-line@4.22.0":
+  version "4.22.0"
+  resolved "https://registry.npmjs.org/@rushstack/ts-command-line/-/ts-command-line-4.22.0.tgz#5725f923d1663f4cfe97a121b2fbc11d7cd488c3"
+  integrity sha512-Qj28t6MO3HRgAZ72FDeFsrpdE6wBWxF3VENgvrXh7JF2qIT+CrXiOJIesW80VFZB9QwObSpkB1ilx794fGQg6g==
   dependencies:
-    "@rushstack/terminal" "0.12.3"
+    "@rushstack/terminal" "0.13.0"
     "@types/argparse" "1.0.38"
     argparse "~1.0.9"
     string-argv "~0.3.1"
@@ -8329,6 +8329,56 @@
     "@swagger-api/apidom-parser-adapter-workflows-yaml-1" "^1.0.0-alpha.0"
     "@swagger-api/apidom-parser-adapter-yaml-1-2" "^1.0.0-alpha.0"
 
+"@swc/core-darwin-arm64@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.5.7.tgz#2b5cdbd34e4162e50de6147dd1a5cb12d23b08e8"
+  integrity sha512-bZLVHPTpH3h6yhwVl395k0Mtx8v6CGhq5r4KQdAoPbADU974Mauz1b6ViHAJ74O0IVE5vyy7tD3OpkQxL/vMDQ==
+
+"@swc/core-darwin-x64@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.5.7.tgz#6aa7e3c01ab8e5e41597f8a24ff24c4e50936a46"
+  integrity sha512-RpUyu2GsviwTc2qVajPL0l8nf2vKj5wzO3WkLSHAHEJbiUZk83NJrZd1RVbEknIMO7+Uyjh54hEh8R26jSByaw==
+
+"@swc/core-linux-arm-gnueabihf@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.5.7.tgz#160108633b9e1d1ad05f815bedc7e9eb5d59fc2a"
+  integrity sha512-cTZWTnCXLABOuvWiv6nQQM0hP6ZWEkzdgDvztgHI/+u/MvtzJBN5lBQ2lue/9sSFYLMqzqff5EHKlFtrJCA9dQ==
+
+"@swc/core-linux-arm64-gnu@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.5.7.tgz#cbfa512683c73227ad25552f3b3e722b0e7fbd1d"
+  integrity sha512-hoeTJFBiE/IJP30Be7djWF8Q5KVgkbDtjySmvYLg9P94bHg9TJPSQoC72tXx/oXOgXvElDe/GMybru0UxhKx4g==
+
+"@swc/core-linux-arm64-musl@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.5.7.tgz#80239cb58fe57f3c86b44617fe784530ec55ee2b"
+  integrity sha512-+NDhK+IFTiVK1/o7EXdCeF2hEzCiaRSrb9zD7X2Z7inwWlxAntcSuzZW7Y6BRqGQH89KA91qYgwbnjgTQ22PiQ==
+
+"@swc/core-linux-x64-gnu@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.5.7.tgz#a699c1632de60b6a63b7fdb7abcb4fef317e57ca"
+  integrity sha512-25GXpJmeFxKB+7pbY7YQLhWWjkYlR+kHz5I3j9WRl3Lp4v4UD67OGXwPe+DIcHqcouA1fhLhsgHJWtsaNOMBNg==
+
+"@swc/core-linux-x64-musl@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.5.7.tgz#8e4c203d6bc41e7f85d7d34d0fdf4ef751fa626c"
+  integrity sha512-0VN9Y5EAPBESmSPPsCJzplZHV26akC0sIgd3Hc/7S/1GkSMoeuVL+V9vt+F/cCuzr4VidzSkqftdP3qEIsXSpg==
+
+"@swc/core-win32-arm64-msvc@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.5.7.tgz#31e3d42b8c0aa79f0ea1a980c0dd1a999d378ed7"
+  integrity sha512-RtoNnstBwy5VloNCvmvYNApkTmuCe4sNcoYWpmY7C1+bPR+6SOo8im1G6/FpNem8AR5fcZCmXHWQ+EUmRWJyuA==
+
+"@swc/core-win32-ia32-msvc@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.5.7.tgz#a235285f9f62850aefcf9abb03420f2c54f63638"
+  integrity sha512-Xm0TfvcmmspvQg1s4+USL3x8D+YPAfX2JHygvxAnCJ0EHun8cm2zvfNBcsTlnwYb0ybFWXXY129aq1wgFC9TpQ==
+
+"@swc/core-win32-x64-msvc@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.5.7.tgz#f84641393b5223450d00d97bfff877b8b69d7c9b"
+  integrity sha512-tp43WfJLCsKLQKBmjmY/0vv1slVywR5Q4qKjF5OIY8QijaEW7/8VwPyUyVoJZEnDgv9jKtUTG5PzqtIYPZGnyg==
+
 "@swc/core@^1.3.46":
   version "1.5.7"
   resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.5.7.tgz#e1db7b9887d5f34eb4a3256a738d0c5f1b018c33"
@@ -8348,7 +8398,7 @@
     "@swc/core-win32-ia32-msvc" "1.5.7"
     "@swc/core-win32-x64-msvc" "1.5.7"
 
-"@swc/counter@^0.1.3":
+"@swc/counter@^0.1.2", "@swc/counter@^0.1.3":
   version "0.1.3"
   resolved "https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz#cc7463bd02949611c6329596fccd2b0ec782b0e9"
   integrity sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==
@@ -8368,6 +8418,13 @@
     "@jest/create-cache-key-function" "^29.7.0"
     "@swc/counter" "^0.1.3"
     jsonc-parser "^3.2.0"
+
+"@swc/types@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.npmjs.org/@swc/types/-/types-0.1.7.tgz#ea5d658cf460abff51507ca8d26e2d391bafb15e"
+  integrity sha512-scHWahbHF0eyj3JsxG9CFJgFdFNaVQCNAimBlT6PzS3n/HptxqREjsm4OH6AN3lYcffZYSPxXW8ua2BEHp0lJQ==
+  dependencies:
+    "@swc/counter" "^0.1.3"
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
@@ -9741,10 +9798,20 @@ ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0, ajv@^8.11.2, ajv@^8.12.0, ajv@^8.6.0, ajv@^8.6.3, ajv@^8.8.2, ajv@^8.9.0:
+ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0, ajv@^8.11.2, ajv@^8.12.0, ajv@^8.6.0, ajv@^8.6.3, ajv@^8.9.0:
   version "8.14.0"
   resolved "https://registry.npmjs.org/ajv/-/ajv-8.14.0.tgz#f514ddfd4756abb200e1704414963620a625ebbb"
   integrity sha512-oYs1UUtO97ZO2lJ4bwnWeQW8/zvOIQLGKcvPTsWmvc2SYgBb+upuNS5NxoLaMU4h8Ju3Nbj6Cq8mD2LQoqVKFA==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
+    uri-js "^4.4.1"
+
+ajv@^8.8.2:
+  version "8.16.0"
+  resolved "https://registry.npmjs.org/ajv/-/ajv-8.16.0.tgz#22e2a92b94f005f7e0f9c9d39652ef0b8f6f0cb4"
+  integrity sha512-F0twR8U1ZU67JIEtekUcLkXkoO5mMMmgGD8sK/xUFzJ805jxHQl92hImFAqqXMyMYjSPOyUPAwHYhB72g5sTXw==
   dependencies:
     fast-deep-equal "^3.1.3"
     json-schema-traverse "^1.0.0"
@@ -9850,7 +9917,7 @@ apg-lite@^1.0.3:
   dependencies:
     "@backstage/app-defaults" "^1.5.5"
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/cli" "^0.26.5"
+    "@backstage/cli" "^0.26.6"
     "@backstage/core-app-api" "^1.12.5"
     "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
@@ -9863,14 +9930,14 @@ apg-lite@^1.0.3:
     "@backstage/plugin-catalog-react" "^1.12.0"
     "@backstage/plugin-org" "^0.6.25"
     "@backstage/plugin-permission-react" "^0.4.22"
-    "@backstage/plugin-scaffolder" "^1.20.0"
+    "@backstage/plugin-scaffolder" "^1.20.1"
     "@backstage/plugin-search" "^1.4.11"
     "@backstage/plugin-search-react" "^1.7.11"
     "@backstage/plugin-techdocs" "^1.10.5"
     "@backstage/plugin-techdocs-module-addons-contrib" "^1.1.10"
     "@backstage/plugin-techdocs-react" "^1.2.4"
     "@backstage/plugin-user-settings" "^0.8.6"
-    "@backstage/theme" "^0.5.4"
+    "@backstage/theme" "^0.5.5"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     history "^5.0.0"
@@ -24310,10 +24377,15 @@ yaml@^1.10.0, yaml@^1.10.2, yaml@^1.7.2:
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yaml@^2.0.0, yaml@^2.0.0-10, yaml@^2.2.1:
+yaml@^2.0.0, yaml@^2.2.1:
   version "2.4.2"
   resolved "https://registry.npmjs.org/yaml/-/yaml-2.4.2.tgz#7a2b30f2243a5fc299e1f14ca58d475ed4bc5362"
   integrity sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==
+
+yaml@^2.0.0-10:
+  version "2.4.3"
+  resolved "https://registry.npmjs.org/yaml/-/yaml-2.4.3.tgz#0777516b8c7880bcaa0f426a5410e8d6b0be1f3d"
+  integrity sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==
 
 yargs-parser@20.2.4:
   version "20.2.4"

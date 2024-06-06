@@ -1,0 +1,3 @@
+site_name: Backstage Documentation
+nav:
+  - Home: index.md
